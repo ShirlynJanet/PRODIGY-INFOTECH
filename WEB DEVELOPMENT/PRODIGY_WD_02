@@ -1,0 +1,202 @@
+# TASK 1 : STOPWATCH WEB APPLICATION
+
+#HTML
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">r
+    <h1 class="h11">
+        STOPWATCH
+
+    </h1>
+    <style>
+        .h11{
+            font-weight: bold;
+            color: bisque;
+        }
+    </style>
+    
+    <link rel="stylesheet" href="style.css">
+    <title>background image</title>
+    <style>
+        body{
+            background-image: url('aaa.png');
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            background-size: 100% 100%;
+        }
+    </style>
+</head>
+<body>
+    
+
+    <div class="stopwatch">
+        <div id="display">00:00:00:000</div>
+        <button id="start">Start</button>
+        <button id="pause">Pause</button>
+        <button id="reset">Reset</button>
+        <button id="restart">Restart</button>
+        <button id="lap">Lap</button>
+        <button id="resetLaps">Reset Laps</button>
+        <div id="laps"></div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
+
+#CSS
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Aligns items vertically */
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+
+h1 {
+    color: #333;
+    font-size: 50px;
+    margin-bottom: 20px; /* Adds space between the heading and the stopwatch */
+    font-weight: normal;
+    text-align: center;
+}
+
+.stopwatch {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    width: auto;
+    max-width: 400px;
+}
+
+#display {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    color: #333;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+#laps {
+    margin-top: 20px;
+    max-height: 150px;
+    overflow-y: auto;
+    padding: 0 5px; /* Adjust padding as needed */
+    text-align: left;
+}
+
+#laps div {
+    background-color: #f2f2f2;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+#JAVASCRIPT
+body, html {
+    height: 100%;
+    margin: 0;
+    display: flex;
+    flex-direction: column; /* Aligns items vertically */
+    justify-content: center;
+    align-items: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+    
+}
+
+h1 {
+    color: #333;
+    font-size: 50px;
+    margin-bottom: 20px; /* Adds space between the heading and the stopwatch */
+    font-weight: normal;
+    text-align: center;
+}
+
+.stopwatch {
+    background-color: rgba(255, 255, 255, 0.5); /* Semi-transparent background */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);
+    text-align: center;
+    width: auto;
+    max-width: 400px;
+}
+
+#display {
+    font-size: 2rem;
+    font-weight: bold;
+    margin-bottom: 20px;
+    padding: 10px;
+    background-color: #e0e0e0;
+    border-radius: 5px;
+    color: #333;
+}
+
+button {
+    margin: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    outline: none;
+    background-color: #007bff;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+button:disabled {
+    background-color: #cccccc;
+    cursor: not-allowed;
+}
+
+button:hover:not(:disabled) {
+    background-color: #0056b3;
+}
+
+#laps {
+    margin-top: 20px;
+    max-height: 150px;
+    overflow-y: auto;
+    padding: 0 5px; /* Adjust padding as needed */
+    text-align: left;
+}
+
+#laps div {
+    background-color: #f2f2f2;
+    margin: 5px 0;
+    padding: 5px;
+    border-radius: 5px;
+}
