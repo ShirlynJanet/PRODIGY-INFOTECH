@@ -20,5 +20,27 @@ LAP:
 RESTART LAPS:
 ![background image - Profile 1 - Microsoft​ Edge 10-02-2024 11_30_18](https://github.com/ShirlynJanet/PRODIGY-INFOTECH/assets/140640492/cb9dd668-171f-4357-b169-1d738f4f3630)
 
+TASK 2: The website described by the code snippets is a modern, interactive portfolio or business website. It features a sticky header that changes as you scroll, sections for home, about, services, portfolio, and contact information, all styled with smooth scroll animations for an engaging user experience. Each section provides detailed information about the individual or company, showcases services or products, displays previous work or projects, and offers a way for visitors to get in touch. The website uses animations to enhance visual appeal and user engagement as they navigate through the content.
+
+HOME:
+![Screenshot (57)](https://github.com/ShirlynJanet/PRODIGY-INFOTECH/assets/140640492/00cdb27c-b743-4c6c-a481-0db8138b8d22)
+
+ABOUT:
+![Screenshot (59)](https://github.com/ShirlynJanet/PRODIGY-INFOTECH/assets/140640492/8659bd71-74f8-41a6-ac97-1304a87e738f)
+
+SERVICES:
+![Screenshot (60)](https://github.com/ShirlynJanet/PRODIGY-INFOTECH/assets/140640492/ff32941a-431d-47d1-8f59-dcf447cee329)
+![Screenshot (61)](https://github.com/ShirlynJanet/PRODIGY-INFOTECH/assets/140640492/40c0df39-6dea-4e09-9ba4-371595582cc8)
+
+PORTFOLIO:
+![Screenshot (62)](https://github.com/ShirlynJanet/PRODIGY-INFOTECH/assets/140640492/2086e282-bfaf-4fee-acf8-7ec803946d3c)
+
+CONTACT:
+![Screenshot (63)](https://github.com/ShirlynJanet/PRODIGY-INFOTECH/assets/140640492/f0f6a887-cae6-4db3-89b5-dfd95aead873)
+
+
+
+
+
 
 
